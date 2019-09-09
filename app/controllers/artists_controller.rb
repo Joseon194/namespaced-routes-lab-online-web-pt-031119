@@ -61,4 +61,7 @@ if @preferences && !@preferences.allow_create_artists
   end
   
   
+  def set_preferences
+    @preferences = Preference.first
+  end
 end
