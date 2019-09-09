@@ -59,4 +59,5 @@ if @preferences && !@preferences.allow_create_artists
   def artist_params
     params.require(:artist).permit(:name)
   end
+  
 end
