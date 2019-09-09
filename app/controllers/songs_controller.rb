@@ -11,6 +11,7 @@ class SongsController < ApplicationController
       else
         @songs = @artist.songs
       end
+      
     else
       @songs = Song.all
     end
